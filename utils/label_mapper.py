@@ -1,0 +1,5 @@
+LABEL_MAP = {
+    "PER": "PERSON",
+    "LOC": "LOCATION",
+    "ORG": "ORGANIZATION"
+}

@@ -1,0 +1,29 @@
+Phase 1 ✅
+Sentence Splitter
+
+Phase 2 ✅
+NER
+
+Phase 3 ✅
+Pair Generator
+
+Phase 4 ✅
+Entity Marker
+
+Phase 5 ✅
+RE Prototype
+
+Phase 6 ← NEXT
+Triple Builder
+
+Phase 7
+End-to-End Pipeline
+
+Phase 8
+Replace NLI with Fine-Tuned RE Model
+
+Phase 9
+Coreference Resolution
+
+Phase 10
+Knowledge Graph Storage
