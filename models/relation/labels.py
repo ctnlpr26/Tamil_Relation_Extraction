@@ -6,6 +6,7 @@ RELATIONS = [
     "WORKED_AT",
     "BORN_IN",
     "PART_OF",
-    "DISCUSSED"
+    "DISCUSSED",
+    "IS_A",
     "NONE"
 ]

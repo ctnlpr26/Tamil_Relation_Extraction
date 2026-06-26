@@ -1,1 +1,2 @@
 pytest tests/test_sentence_splitter.py -v
+python -m tests_manual.test_real_examples

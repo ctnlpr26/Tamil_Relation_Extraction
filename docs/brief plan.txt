@@ -13,17 +13,42 @@ Entity Marker
 Phase 5 ✅
 RE Prototype
 
-Phase 6 ← NEXT
+Phase 6 ✅
 Triple Builder
 
-Phase 7
+Phase 7 ✅
 End-to-End Pipeline
 
 Phase 8
-Replace NLI with Fine-Tuned RE Model
+Replace NLI with best Model
 
 Phase 9
 Coreference Resolution
 
-Phase 10
+Phase 10 ✅
 Knowledge Graph Storage
+
+
+##################################################################
+
+Phase 1 ✅ Sentence Splitting
+Phase 2 ✅ NER
+Phase 3 ✅ Pair Generation
+Phase 4 ✅ Entity Marker
+Phase 5 ✅ RE
+Phase 6 ✅ Triple Builder
+Phase 7 ✅ End-to-End Pipeline
+
+Phase 8 🔥 Neo4j Knowledge Graph Integration
+
+Phase 9 🔥 Relation Extraction Benchmarking
+
+Phase 10 🔥 Best RE Model Selection
+
+Phase 11 🔥 Coreference Resolution
+
+Phase 12 🔥 Entity Canonicalization
+
+Phase 13 🔥 Ontology Validation
+
+Phase 14 🔥 GraphRAG
