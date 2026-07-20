@@ -54,8 +54,23 @@ class ExtractionPipeline:
 
                 print("Marked:", marked_sentence)
 
+                # relation = self.relation_stage.predict(
+                #     marked_sentence
+                # )
+                # relation = self.relation_stage.predict(
+                #     sentence=marked_sentence,
+                #     entity1=pair.entity1,
+                #     entity2=pair.entity2
+                # )   
+
                 relation = self.relation_stage.predict(
-                    marked_sentence
+
+                    sentence=marked_sentence,
+
+                    entity1=pair.entity1,
+
+                    entity2=pair.entity2
+
                 )
 
                 print("Relation:", relation)
