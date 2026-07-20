@@ -181,16 +181,6 @@ After:
 
 Combines fragmented entities.
 
-Example:
-
-```text
-Before:
-சுக
-ார அமைச்சு
-
-After:
-சுகார அமைச்சு
-```
 
 ---
 
