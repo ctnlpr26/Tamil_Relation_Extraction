@@ -28,6 +28,8 @@ Relation Extraction is a core Information Extraction task that identifies semant
 
 Current pipeline follows a standard pipeline-based Information Extraction architecture:
 
+![Tamil Relation Extraction Pipeline Architecture](docs/images/pipeline_architecture.png)
+
 ```text
 Document
     ↓
