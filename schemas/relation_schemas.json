@@ -1,0 +1,94 @@
+{
+  "PERSON_PERSON": {
+    "description": "Relations between two people.",
+    "relations": [
+      "PARENT_OF",
+      "SPOUSE_OF",
+      "SIBLING_OF",
+      "MENTORED",
+      "TAUGHT",
+      "COLLABORATED_WITH",
+      "SUCCESSOR_OF",
+      "PREDECESSOR_OF",
+      "NONE"
+    ]
+  },
+
+  "PERSON_LOCATION": {
+    "description": "Biographical and geographical relations.",
+    "relations": [
+      "BORN_IN",
+      "LIVED_IN",
+      "DIED_IN",
+      "STUDIED_IN",
+      "WORKED_IN",
+      "VISITED",
+      "MIGRATED_TO",
+      "NONE"
+    ]
+  },
+
+  "PERSON_ORGANIZATION": {
+    "description": "Employment and affiliation.",
+    "relations": [
+      "WORKED_AT",
+      "MEMBER_OF",
+      "FOUNDER_OF",
+      "CHAIRED",
+      "TAUGHT_AT",
+      "STUDIED_AT",
+      "CONTRIBUTED_TO",
+      "REPRESENTED",
+      "NONE"
+    ]
+  },
+
+  "ORGANIZATION_PERSON": {
+    "description": "Reverse of PERSON_ORGANIZATION.",
+    "relations": [
+      "EMPLOYED",
+      "HAS_MEMBER",
+      "FOUNDED_BY",
+      "LED_BY",
+      "HAS_TEACHER",
+      "HAS_STUDENT",
+      "SUPPORTED_BY",
+      "NONE"
+    ]
+  },
+
+  "ORGANIZATION_LOCATION": {
+    "description": "Location of organizations.",
+    "relations": [
+      "LOCATED_IN",
+      "HEADQUARTERED_IN",
+      "ESTABLISHED_IN",
+      "OPERATES_IN",
+      "NONE"
+    ]
+  },
+
+  "LOCATION_LOCATION": {
+    "description": "Spatial relations.",
+    "relations": [
+      "PART_OF",
+      "LOCATED_IN",
+      "BORDERS",
+      "CONTAINS",
+      "NEAR",
+      "NONE"
+    ]
+  },
+
+  "ORGANIZATION_ORGANIZATION": {
+    "description": "Relations between organizations.",
+    "relations": [
+      "PART_OF",
+      "AFFILIATED_WITH",
+      "COLLABORATED_WITH",
+      "MERGED_WITH",
+      "SUBSIDIARY_OF",
+      "NONE"
+    ]
+  }
+}
