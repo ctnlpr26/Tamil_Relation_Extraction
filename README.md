@@ -20,7 +20,7 @@ Output:
 (சாம்பசிவம், LIVED_IN, யாழ்ப்பாணத்தில்)
 ```
 
-Relation Extraction is a core Information Extraction task that identifies semantic relationships between entities and converts unstructured text into machine-readable knowledge. It is commonly used in Knowledge Graph construction, Question Answering, and Knowledge Base Population systems. ([LlamaIndex][1])
+Relation Extraction is a core Information Extraction task that identifies semantic relationships between entities and converts unstructured text into machine-readable knowledge. It is commonly used in Knowledge Graph construction, Question Answering, and Knowledge Base Population systems. 
 
 ---
 
@@ -50,7 +50,7 @@ Triple Builder
 Knowledge Triples
 ```
 
-Pipeline-based architectures first identify entities and then classify relations between entity pairs. This approach is widely used because it provides modularity and easier debugging. ([Ynu][2])
+Pipeline-based architectures first identify entities and then classify relations between entity pairs. This approach is widely used because it provides modularity and easier debugging. 
 
 ---
 
@@ -147,7 +147,7 @@ PERSON      → சாம்பசிவம்
 LOCATION    → யாழ்ப்பாணத்தில்
 ```
 
-Named Entity Recognition identifies mentions of people, organizations, and locations from raw text and serves as the foundation of most information extraction pipelines. ([Wikipedia][3])
+Named Entity Recognition identifies mentions of people, organizations, and locations from raw text and serves as the foundation of most information extraction pipelines. 
 
 ---
 
@@ -248,7 +248,7 @@ PART_OF
 BORN_IN
 ```
 
-Relation extraction identifies and classifies semantic relationships between recognized entities. ([LlamaIndex][1])
+Relation extraction identifies and classifies semantic relationships between recognized entities. 
 
 ---
 
@@ -273,7 +273,7 @@ Output:
 )
 ```
 
-Triple extraction transforms unstructured text into structured knowledge representations suitable for Knowledge Graphs. ([arXiv][4])
+Triple extraction transforms unstructured text into structured knowledge representations suitable for Knowledge Graphs. 
 
 ---
 
